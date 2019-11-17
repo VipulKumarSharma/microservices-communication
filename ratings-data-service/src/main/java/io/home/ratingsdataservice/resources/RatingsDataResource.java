@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Arrays;
-import java.util.List;
 
 @RestController
 @RequestMapping("/ratings")
@@ -22,9 +21,9 @@ public class RatingsDataResource {
     @GetMapping("users/{userId}")
     public UserRating getRatingsByUserId(@PathVariable String userId) {
         return new UserRating(Arrays.asList(
-                new Rating("1",4),
-                new Rating("2",3),
-                new Rating("3",1)
+                new Rating("111",4),
+                new Rating("222",3),
+                new Rating("333",1)
         ));
     }
 }
