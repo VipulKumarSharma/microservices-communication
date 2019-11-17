@@ -18,13 +18,5 @@ HELP.md
 *.ipr
 .idea/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-/build/
-
 ### VS Code ###
 .vscode/
